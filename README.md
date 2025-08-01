@@ -1,6 +1,6 @@
 # Flocode Prompt Library
 
-**Engineering-First AI Prompts**
+## **AI Prompts For Professional Engineers**
 
 A curated collection of recursive, battle-tested prompts designed specifically for engineering professionals. Each prompt is crafted to be a **force multiplier**—generating other specialized prompts, frameworks, and workflows that scale across multiple engineering domains.
 
@@ -9,6 +9,7 @@ Check out the [**Flocode Newsletter 🌊**](https://flocode.substack.com/) for m
 ## Why This Library Exists
 
 Engineering teams need AI assistants that understand:
+
 - **Safety-critical requirements** and code compliance
 - **Professional standards** and verification protocols  
 - **Technical precision** without marketing fluff
@@ -33,10 +34,12 @@ flocode-prompt-library/
 These are your **force multipliers**—prompts that create other specialized prompts:
 
 ### [Recursive Prompt Generator](core-prompts/prompt-generator.md)
+
 **Purpose:** Generate specialized AI prompts for any engineering domain  
 **Value:** One prompt that creates unlimited domain-specific assistants  
 
 ### [Context Engineering Framework](core-prompts/context-engineering-framework.md)  
+
 **Purpose:** Generate systematic project structures and workflows  
 **Value:** Transform any complex engineering project into a structured AI-assisted workflow  
 
@@ -60,14 +63,17 @@ Pre-built assistants for common engineering needs:
 ## What Makes These Prompts Different
 
 ### 1. **Recursive Design**
+
 Unlike single-use prompts, these generate other specialized tools. One investment, multiple returns.
 
 ### 2. **Battle-Tested**
+
 Proven effective in real projects across mining, power, water, and infrastructure sectors.
 
 ## Contributing
 
 This library grows through engineering practitioners. Share prompts that:
+
 - Generate other specialized prompts (recursive value)
 - Solve real engineering challenges
 - Maintain professional standards
@@ -79,4 +85,4 @@ Open source for engineering professionals. Use, modify, and share to advance the
 
 ---
 
-**Built by Flocode** - Engineering AI solutions that respect the profession's standards and requirements.
+Built by **[Flocode 🌊](https://flocode.substack.com/)** - The tools change. The principles don't.
