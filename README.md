@@ -16,6 +16,10 @@ Engineering teams need AI assistants that understand:
 
 This library provides prompts that **generate other prompts**, creating a multiplier effect for your engineering AI toolkit.
 
+## 📢 Important Note on Professional Responsibility
+
+**You remain fully responsible** for validating and verifying all AI-generated outputs. Use these prompts within your professional competency and risk tolerance. Engineering judgment and due diligence are always required.
+
 ## Repository Structure
 
 ```
