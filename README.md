@@ -2,7 +2,7 @@
 
 ## **AI Prompts For Professional Engineers**
 
-A curated collection of recursive, battle-tested prompts designed specifically for engineering professionals. Each prompt is crafted to be a **force multiplier**—generating other specialized prompts, frameworks, and workflows that scale across multiple engineering domains.
+A collection of recursive prompts designed for engineering professionals. These prompts generate other specialized prompts, frameworks, and workflows that scale across multiple engineering domains.
 
 Check out the [**Flocode Newsletter 🌊**](https://flocode.substack.com/) for more similar tools and insights.
 
@@ -15,7 +15,7 @@ Engineering teams need AI assistants that understand:
 - **Technical precision** without marketing fluff
 - **Scalable workflows** that work across projects
 
-This library provides prompts that **generate other prompts**, creating a multiplier effect for your engineering AI toolkit.
+This library provides prompts that generate other prompts, enabling customized AI assistants for specific engineering domains.
 
 ## 📢 Important Note on Professional Responsibility
 
@@ -25,23 +25,23 @@ This library provides prompts that **generate other prompts**, creating a multip
 
 ```
 flocode-prompt-library/
-├── core-prompts/           # Recursive generators - the foundation
+├── core-prompts/           # Recursive generators
 └── specialized/           # Domain-specific engineering assistants
 ```
 
 ## Core Prompts (Start Here)
 
-These are your **force multipliers**—prompts that create other specialized prompts:
+Prompts that create other specialized prompts:
 
 ### [Recursive Prompt Generator](core-prompts/prompt-generator.md)
 
 **Purpose:** Generate specialized AI prompts for any engineering domain  
-**Value:** One prompt that creates unlimited domain-specific assistants  
+Creates domain-specific AI assistants for engineering disciplines  
 
 ### [Context Engineering Framework](core-prompts/context-engineering-framework.md)  
 
 **Purpose:** Generate systematic project structures and workflows  
-**Value:** Transform any complex engineering project into a structured AI-assisted workflow  
+Creates structured AI-assisted workflows for complex engineering projects  
 
 ## Specialized Prompts
 
@@ -64,11 +64,11 @@ Pre-built assistants for common engineering needs:
 
 ### 1. **Recursive Design**
 
-Unlike single-use prompts, these generate other specialized tools. One investment, multiple returns.
+These prompts generate other specialized tools rather than serving single functions.
 
-### 2. **Battle-Tested**
+### 2. **Engineering-Focused**
 
-Proven effective in real projects across mining, power, water, and infrastructure sectors.
+Designed for professional engineering applications across mining, power, water, and infrastructure sectors.
 
 ## Contributing
 
