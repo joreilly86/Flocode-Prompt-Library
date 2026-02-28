@@ -34,7 +34,10 @@ Flocode-Prompt-Library/
     ├── personal-engineering-assistant.md
     ├── technical-writing-assistant.md
     ├── coding-context.md
-    └── meeting-transcription.md
+    ├── meeting-transcription.md
+    ├── drawing-analysis-assistant.md
+    ├── calculation-review-assistant.md
+    └── specification-writer-assistant.md
 ```
 
 ## Core Prompts (Start Here)
@@ -65,6 +68,9 @@ Pre-built assistants for common engineering needs:
 - **[Technical Writing Assistant](engineering/technical-writing-assistant.md)** — Engineering document compliance and style
 - **[Coding Context Template](engineering/coding-context.md)** — Project context file template for AI assistants
 - **[Meeting Transcription](engineering/meeting-transcription.md)** — Technical meeting minutes from raw transcripts
+- **[Drawing & Image Analysis](engineering/drawing-analysis-assistant.md)** — Multimodal analysis of drawings, site photos, and P&IDs
+- **[Calculation Review](engineering/calculation-review-assistant.md)** — Structured QC review of engineering calculations
+- **[Specification Writer](engineering/specification-writer-assistant.md)** — CSI MasterFormat specification drafting and review
 
 ## Quick Start (2 Minutes)
 
@@ -102,7 +108,7 @@ This library grows through engineering practitioners. Share prompts that:
 
 ## License
 
-Open source for engineering professionals. Use, modify, and share to advance the profession.
+[MIT License](LICENSE) — use, modify, and share freely.
 
 ---
 

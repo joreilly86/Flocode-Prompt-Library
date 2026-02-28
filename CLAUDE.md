@@ -18,12 +18,16 @@ Flocode-Prompt-Library/
 │   ├── prompt-generator.md          # Meta-prompt: creates domain-specific AI assistants
 │   ├── context-engineering-framework.md  # Generates project structures and workflows
 │   └── compact-and-continue.md      # Context handoff utility for session transitions
+├── LICENSE                          # MIT License
 └── engineering/                     # Pre-built domain-specific prompts
     ├── engineering-ai-assistant.md   # PE-level comprehensive support with code compliance
     ├── personal-engineering-assistant.md  # Python & hydropower focused assistant
     ├── technical-writing-assistant.md    # Engineering document standards and style
     ├── coding-context.md             # Project context template for AI assistants
-    └── meeting-transcription.md      # Technical meeting minutes generator
+    ├── meeting-transcription.md      # Technical meeting minutes generator
+    ├── drawing-analysis-assistant.md # Multimodal drawing and image analysis
+    ├── calculation-review-assistant.md  # QC review of engineering calculations
+    └── specification-writer-assistant.md # CSI MasterFormat specification drafting
 ```
 
 ### Directory Purposes
