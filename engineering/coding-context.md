@@ -1,6 +1,8 @@
 # AI Context: Engineering Project
 
-**Purpose:** This file provides project context to AI assistants (Claude, Gemini, ChatGPT, Qwen, Warp AI, etc.) for accurate, relevant engineering assistance. Update this file as your project evolves. Clean, relevant context provides optimal results.
+**Purpose:** This file provides project context to AI assistants (Claude, ChatGPT, Gemini, Qwen, etc.) for accurate, relevant engineering assistance. Copy this template into your project root and update each section as your project evolves.
+
+**Best For:** Any AI-assisted engineering project using Python. Place this file where your AI tool reads project context (e.g., `CLAUDE.md`, `.cursorrules`, `ai-context.md`, or paste it into the conversation).
 
 ---
 
@@ -23,11 +25,17 @@
 **Package Manager:** uv
 
 **Core Libraries:**
-- `pandas` - data manipulation and analysis
-- `numpy` - numerical operations and calculations
-- `matplotlib`, `seaborn` - static plotting
-- `plotly` - interactive visualizations
-- `scipy` - scientific and technical computing
+- `pandas` — data manipulation and analysis
+- `numpy` — numerical operations and calculations
+- `matplotlib`, `seaborn` — static plotting
+- `plotly` — interactive visualizations
+- `scipy` — scientific and technical computing
+
+**Additional Libraries (add as needed):**
+- `polars` — high-performance DataFrames for large datasets
+- `pint` — unit handling and conversion
+- `sympy` — symbolic mathematics
+- `shapely`, `geopandas` — geospatial analysis
 
 ## 3. Directory Structure
 
@@ -61,7 +69,7 @@ project/
 - [Constraint 2: description]
 
 **Applicable Codes & Standards:**
-- [e.g., ACI 318-19, ASCE 7-22, AISC 360-16, AWWA M11, etc.]
+- [e.g., ACI 318-19, ASCE 7-22, AISC 360-22, AWWA M11, etc.]
 
 **Load Cases & Combinations:**
 - [If applicable: Dead, Live, Wind, Seismic, etc.]
@@ -90,11 +98,12 @@ project/
 
 ## 6. Coding Conventions
 
-- **Clarity:** Use descriptive variable names with units (e.g., `moment_capacity_kip_ft`)
+- **Clarity:** Use descriptive variable names with units (e.g., `moment_capacity_kip_ft`, `flow_rate_m3_s`)
 - **Docstrings:** All functions must document purpose, arguments, returns, and units
 - **Type Hints:** Use Python type hints for function signatures
-- **Units:** Explicitly state units in comments, names, or DataFrame columns
+- **Units:** Explicitly state units in comments, variable names, or DataFrame columns
 - **Structure:** Organize notebooks with Markdown headings for report-like readability
+- **Validation:** Include sanity checks for engineering-critical calculations (bounds checking, unit consistency)
 
 ---
 
@@ -108,7 +117,7 @@ project/
 - [Task 3]
 
 **Outstanding Items:**
-- [Task 4 - priority/notes]
+- [Task 4 — priority/notes]
 
 **Next Steps:**
 - [Immediate next action]
@@ -124,6 +133,8 @@ When providing assistance:
 - Reference the design parameters and constraints
 - Generate code that integrates with the existing directory structure
 - Provide engineering rationale for design decisions
+- Show step-by-step reasoning for calculations before stating results
+- When uncertain about a value, standard, or approach, say so explicitly
 
 **Example queries this context enables:**
 - "Using ACI 318-19, write a function to calculate beam shear capacity"
